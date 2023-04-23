@@ -16,7 +16,7 @@ function App() {
       <ControlledCarousel />
 
       <div className="container p-4">
-      <div className='row'>
+      <div className="card card-body btn btn-primary btn-block" style={{ fontFamily: 'Jost'}}>
                 <h4>Con todo el dolor mami, decimos, te vamos a extrañar y recordar siempre.</h4>
                 </div>
             </div>

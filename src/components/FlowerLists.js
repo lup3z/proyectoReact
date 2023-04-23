@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import FlowerForm from './FlowerForm';
 import { db } from '../firebase';
-import {toast} from 'react-toastify';
+import { toast } from 'react-toastify';
 
 
 const FlowerList = () => {
@@ -11,7 +11,7 @@ const FlowerList = () => {
     const addFlower = async (elementoDelFormulario) => {
         await db.collection('registros').doc().set(elementoDelFormulario)
         toast('Cargaste una flor con exito', {
-            type:'success',
+            type: 'success',
             position: "top-center",
             theme: 'dark',
             autoClose: 2000
@@ -41,7 +41,8 @@ const FlowerList = () => {
                 {flores.map(flor => (
                     <div className="card" key={flor.id}>
                         <div className="d-flex card-body md-8 p-2">
-                                <span className="material-symbols-outlined">deceased</span>
+                         {/* <p>{flor.nombre}</p> */}
+                            <span className="material-symbols-outlined">deceased</span>
                         </div>
                     </div>
                 ))}

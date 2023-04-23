@@ -6,12 +6,12 @@ import "firebase/compat/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig =  firebase.initializeApp({
-  apiKey: "AIzaSyALgOR__suR3Qkla_XkOrvjDxUhr6L1UUM",
-  authDomain: "estelitaproyect.firebaseapp.com",
-  projectId: "estelitaproyect",
-  storageBucket: "estelitaproyect.appspot.com",
-  messagingSenderId: "1075440705",
-  appId: "1:1075440705:web:dd53c6e7ebf5bd90d9aac0"
+  apiKey: "AIzaSyAS-r2yUjoU-1QoqSFSkLE8bsKP1wJUwO0",
+  authDomain: "tequeremossiempremami.firebaseapp.com",
+  projectId: "tequeremossiempremami",
+  storageBucket: "tequeremossiempremami.appspot.com",
+  messagingSenderId: "306747150951",
+  appId: "1:306747150951:web:eafbbee7ea6f1375247ac2"
 });
 
 // Initialize Firebase
