@@ -1,4 +1,4 @@
-# See the proyectc
+# See the proyect
 
 [tequeremossiempremami.web.app](https://tequeremossiempremami.web.app)
 
