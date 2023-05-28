@@ -22,9 +22,11 @@ const FlowerList = () => {
         db.collection('registros').onSnapshot((querySnapshot) => {
             const docs = [];
             querySnapshot.forEach((doc) => {
-                docs.push({ ...doc.data(), id: doc.id })
+                const { nombre } = doc.data(); // Extraer solo la propiedad "nombre"
+                docs.push({ nombre, id: doc.id }); // Agregar solo la propiedad "nombre" al objeto
             });
             setFlores(docs);
+
         });
     }
 

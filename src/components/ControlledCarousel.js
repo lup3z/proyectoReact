@@ -1,3 +1,4 @@
+import '../components/ControlledCarousel.css';
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -9,45 +10,124 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
-      <img
-          className="d-block w-100"
-          src="./imagenes/mama.jpeg"
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <img
-          className="d-block w-100"
-          src="./imagenes/aleMama.jpeg"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="./imagenes/mamaAbu.jpeg"
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="./imagenes/motoMami.jpeg"
-          alt="Third slide"
-        />
+      <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel.Item>
+          <img 
+            id="mycarousel"
+            className="d-block w-100"
+            src="./imagenes/1.ninia.png"
+            alt="Second slide"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img 
+            id="mycarousel"
+            className="d-block w-100"
+            src="./imagenes/2.adolescente.png"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            id="mycarousel"
+            className="d-block w-100"
+            src="./imagenes/3.mama.jpeg"
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            id="mycarousel"
+            className="d-block w-100"
+            src="./imagenes/4.rio.png"
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
 
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+        <Carousel.Item>
+          <img
+            id="mycarousel"
+            className="d-block w-100"
+            src="./imagenes/5.playa.png"
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            id="mycarousel"
+            className="d-block w-100"
+            src="./imagenes/6.playaLeyendo.png"
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            id="mycarousel"
+            className="d-block w-100"
+            src="./imagenes/7.churra.png"
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            id="mycarousel"
+            className="d-block w-100"
+            src="./imagenes/8.Embarazada.png"
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            id="mycarousel"
+            className="d-block w-100"
+            src="./imagenes/9.aleMama.jpeg"
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            id="mycarousel"
+            className="d-block w-100"
+            src="./imagenes/10.mamaAbu.jpeg"
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            id="mycarousel"
+            className="d-block w-100"
+            src="./imagenes/11.motoMami.jpeg"
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
   );
 }
 

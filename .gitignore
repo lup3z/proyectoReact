@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+/public
+/.firebase/hosting.YnVpbGQ.cache
+.firebase/hosting.YnVpbGQ.cache
 
 # testing
 /coverage
